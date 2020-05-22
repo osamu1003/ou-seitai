@@ -1,0 +1,567 @@
+@charset "utf-8";
+
+
+/*++++++トップページメイン++++++*/
+.w10{width:10%;}
+.w15{width:10%;}
+.w30{width:30%;}
+.w50{width:50%;}
+.w70{width:70%;}
+.w100{width:100%;}
+
+@media only screen and (max-width: 768px) {
+.w15{width:20%;}
+}
+
+@media only screen and (max-width: 480px) {
+.w15{width:35%;}
+}
+
+
+#main_photo{
+background:#fff;
+margin-top:20px;
+}
+
+#main_sphoto{display: none !important;}
+
+#main{margin-top:20px; border-top:solid 1px #ccc;}
+
+
+@media only screen and (max-width: 768px) {
+  #main_photo { display: none !important; }
+#main{margin-top:60px;}
+	#main_sphoto{
+		display: block !important;
+	 margin-top:75px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+#content_box{margin-top:130px;}
+}
+
+
+
+.photo_block .col-4{margin:5px; padding:0;}
+
+
+.contents_block {padding:100px 0;}
+
+
+.crumbs a{color:#000; font-family: 'IM Fell DW Pica SC', serif;
+}
+
+/*++++++concept++++++*/
+#menu_block{
+padding:100px 0;
+background:#d2b48c;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+#menu_block h2{
+color:#000;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+padding-bottom:30px;
+line-height:1.6;
+}
+
+#concept{
+background: url(img/bg.jpg) center top;
+	padding:100px 0;
+}
+
+#concept img{
+width:100%;
+max-width: 600px;
+height: auto;
+}
+
+.concept p{
+line-height:3.0;
+
+}
+
+#concept p{
+line-height:3.0;
+margin-top:20px;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+
+}
+
+
+#concept h2{
+font-family: 'Dancing Script', cursive;
+font-size:2.5em;
+	margin-bottom:50px;
+}
+
+
+
+
+
+.topbnbox {
+	width:100%;
+height:auto;
+background: url(img/foot.jpg) center top;
+background-repeat:repeat;
+padding:30px 0 30px 0 ;
+}
+
+@media only screen and (max-width: 480px) {
+.topbnbox {
+		width:100%;
+background: url(img/foot.jpg) center top;
+	background-repeat:repeat;
+height:auto;
+	padding:0 0 50px 0;
+margin-top:-27px;
+	}
+.top_bn {
+text-align:left;
+margin:0 0 10px 0;
+}
+	.top_bn img{
+width:100%;
+}
+}
+
+
+.top_bn {
+text-align:left;
+margin:50px 0 40px 0;
+}
+
+.top_bn img{
+width:100%;
+}
+
+.top_bn h2{
+font-size:1.5em;
+color:#d2b48c;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+padding-top:15px;
+}
+
+
+.top_bn p{margin-top:-15px;}
+
+.top_bn a:hover{
+text-decoration:none;
+}
+
+
+
+/*++++++shop++++++*/
+
+#shop_info{
+	width:100%;
+	padding:50px 0 0 0;
+}
+
+.shop_photo .col-md-12{ padding:0; margin:0;}
+.shop_photo .col-lg-6 { padding:0; margin:0;}
+
+#shop_info img{width:100%;}
+
+/*+++++ヘアカタログページ++++++*/
+
+#catarogue{
+margin:0 0 30px 0;
+clear:both;
+}
+
+#catarogue img{
+width:100%;
+max-width: 600px;
+height: auto;
+}
+
+#catarogue h2,#menu h2,#staff h2,#news h2{
+font-family: 'Dancing Script', cursive;
+font-style:italic;
+font-size:2.5em;
+margin-top:5px;
+margin-bottom:55px;
+color:#eccfb2;
+}
+
+
+.style_block .col-6{ padding:0; margin:0;}
+
+
+
+.style_photo{
+width:100%;
+float:left;
+}
+
+.style_photo img{
+width:100%;
+padding-bottom:15px;
+}
+
+
+.style_comme {
+	padding:80px 0;
+		font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+font-weight:normal;
+}
+
+.style_comme ul{
+padding:15px 0;
+}
+
+.style_comme li{line-height:3.0;}
+
+.styleti{font-size:1.4em; margin-bottom:60px; border-bottom:solid 1px #ccc; padding-bottom:25px;}
+
+/*++++++スタッフページ++++++*/
+
+
+
+#staff{margin:30px 0 30px 0;}
+
+
+
+
+
+.staff_comme{
+width:100%;
+}
+
+
+.staff_comme li{
+margin:10px 0 20px 0;
+line-height:1.8;
+border-bottom:solid 1px #e5e5e5;
+padding-bottom:8px;
+}
+
+
+.staffti{
+font-size:1.0em;
+letter-spacing:0.1em;
+border-bottom:solid 1px #e5e5e5;
+padding-bottom:8px;
+}
+
+.staff_position{
+font-size:1em;
+margin:10px 0 20px 0;
+}
+
+.profile{
+margin:20px 0 30px 0;
+clear:both;
+}
+
+/*++++++トップページNEWS++++++*/
+
+.topics .col-lg3{ padding:0 10px;}
+.topics .col-6{ padding:0 10px;}
+.topics {padding-bottom:80px;}
+
+#news{
+margin:120px 0 40px 0;
+}
+
+#news img{
+width:100%;
+max-width: 600px;
+height: auto;
+}
+
+
+.newsbox{
+border:solid 1px #ccc;
+background:#fff;
+margin-bottom:25px;
+}
+
+.newsbox{
+ position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.newsbox a{
+	display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.newsbox img{padding-bottom:15px;}
+
+@media screen and (max-width: 768px) {
+	.newsbox{margin-bottom:30px;}
+}
+
+
+
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.news_date{
+font-family: 'IM Fell DW Pica SC', serif;
+font-size:1.2em;
+	color:#696969;
+}
+
+.newslist {
+	color:#000;
+		padding:10px;
+
+}
+
+
+.news_content{padding:50px 0 100px 0;}
+
+.news_content img{padding-bottom:30px;}
+
+@media screen and (max-width: 768px) {
+	.news_content img{padding:30px 0; width:100%; height:auto;}
+}
+
+
+.news_content span {
+	font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.middlebox{
+ position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.middlebox a{
+	display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.middlebox img{padding-bottom:15px;}
+
+@media screen and (max-width: 768px) {
+	.middlebox{margin-bottom:30px;}
+}
+
+
+
+.mapbox{
+margin:50px 0 100px 0;
+position: relative;
+padding-bottom: 45%;
+height: 0;
+overflow: hidden;
+}
+
+.mapbox iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+
+@media screen and (max-width: 768px) {
+	.mapbox{
+margin:50px 0 100px 0;
+position: relative;
+padding-bottom: 75%;
+height: 0;
+overflow: hidden;
+}
+}
+
+
+
+/*++++++ menu ++++++*/
+
+#menu{
+margin:30px 0 30px 0;
+clear:both;
+}
+
+#menu img{
+width:100%;
+max-width: 600px;
+height: auto;
+}
+
+.menutitle h2{
+font-family: 'Dancing Script', cursive;
+font-size:1.5em;
+width:100%;
+padding-bottom:20px;
+}
+
+section table {
+width: 100%; margin-bottom:30px;
+border: 1px solid #000000;
+border-collapse: separate;
+border-spacing: 0;
+border-radius: 10px;
+overflow: hidden;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+section h2 { font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;}
+.price h4 { line-height:1.5;}
+.price th  { padding: 8px; border: none;}
+.price td  { padding: 8px; border: none; line-height:1.5;}
+.price th  {width: 40%;}
+.kakaku {color:#be8915; border-bottom:solid 1px #ccc;}
+@media only screen and (max-width: 480px) {
+  .price { margin: 0 -10px; }
+  .price tr {
+    display:block;
+    margin-bottom: 10px;
+  }
+  .price th {
+    display:block;
+    width: 100%;
+    font-size:1.2em;
+	padding-top:20px;
+	  line-height:1.5;
+  }
+  .price td {
+    width: 100%;
+    margin-left: 15%;
+    border:none;
+float:right;
+  }
+}
+
+
+	.menutitle h2{
+font-family: 'Dancing Script', cursive;
+font-size:1.5em;
+width:100%;
+padding:25px 0;
+}
+}
+
+
+.recruit{
+width:100%;
+  border: 2px solid #d6ceb4;
+  overflow: hidden;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+
+.recruit th{
+  padding: 15px;
+  border-top: solid 1px #ffffff;
+  width: 30%;
+  overflow: hidden;
+  color: #13131e;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100%;
+  text-align: left;
+  word-break: break-all;
+  word-wrap: break-word;
+  vertical-align: top;
+  background-color: #eeece4;
+}
+
+.recruit td{
+padding: 15px;
+text-align: left;
+vertical-align: top;
+color: #595960;
+background-color: #ffffff;
+border-top: dotted 1px #e0dccc;
+overflow: hidden;
+word-break: break-all;
+word-wrap: break-word;
+}
+
+@media (max-width: 400px){
+.recruit th{
+  width:100%;
+  display:block;
+  margin: 0 auto;
+  border:none;
+  border-radius: 3px;
+}
+.recruit td{
+  display: list-item;
+  width: 100%;
+  border-top: none !important;
+}
+}
+
+
+/*++++++ご予約ページ++++++*/
+
+
+.access{
+	margin-top:40px;
+	text-align:left;
+	font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+.access li{
+border-bottom:1px dotted #ccc;
+padding:13px 0;
+}
+
+.access li span{
+display:block;
+float:left;
+}
+
+.access li .item{ width:20%; }
+
+.access li .detail{ width:80%; }
+
+.access li.atte{ border-bottom:none; }
+
+
+
+.shop li{
+margin-bottom:25px;
+}
+
+
+
+
+#voice_block{
+padding:100px 0;
+background:#f5deb3;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+#voice_block h2{
+color:#000;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+padding-bottom:30px;
+line-height:1.6;
+}
+
+#map_block{
+background: #fff;
+padding:100px 0;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+#map_block h2{
+color:#000;
+font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+padding-bottom:30px;
+line-height:1.6;
+}
