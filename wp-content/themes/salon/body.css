@@ -48,8 +48,11 @@ ul {
         list-style:none;
 }
 
-.initiative li{
-  line-height: 2.0;
+.initiative_margin {
+  margin-top: -15px;
+}
+
+.initiative li {
   text-indent: -1.2em;
   padding: 0 0 0 1em;
   list-style-type: disc;
@@ -383,6 +386,12 @@ padding:20px 0;
 color:#fff;
 	font-family: 'IM Fell DW Pica SC', serif;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+.info li a{
+pointer-events:all;
+}
 }
 
 

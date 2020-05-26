@@ -9,7 +9,10 @@
 <title>王整体院</title>
 <meta name="description" content="三ノ輪　整体　アロマ　フット" />
 <meta name="keywords" content="三ノ輪,整体,アロマ,フット" />
-<link rel="icon" type="image/png" href="wp-content\themes\salon\img\favicon.jpg">
+<link rel="icon" type="image/png" href="wp-content\themes\salon\img\favicon.ico">
+<link rel="shortcut icon" href="wp-content\themes\salon\img\favicon.jpg" type="image/x-icon">
+<link rel="apple-touch-icon" href="wp-content\themes\salon\img\favicon.jpg" sizes="180x180">
+<link rel="icon" type="image/png" href="./images/android-touch-icon.png" sizes="192x192">
 <link href="https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
@@ -125,9 +128,8 @@ jQuery('.over').opOver(1.0,0.3,300,500);
 		  <div class="center-block">
         <img src="wp-content/themes/salon/img/spbt.png" data-dismiss="modal" alt="" style="cursor:pointer" class="w10" />
 		  </div>
-<div class="modal-body"><a href="" target="_blank"><i class="far fa-calendar-alt"></i>&nbsp;予約する</a></div>
+<div class="modal-body"><a href="http://b.hpr.jp/kr/hp/H000461084/?=wozsp&openExternalBrowser=1"><i class="far fa-calendar-alt"></i>&nbsp;予約する</a></div>
 <div class="modal-body"><a href="tel:0356035665"><i class="fas fa-mobile-alt"></i>&nbsp;電話する</a></div>
-		  <div class="modal-body"><a href="https://lin.ee/ni548BN"><i class="fab fa-line"></i>&nbsp;LINEで予約する</a></div>
 
       </div>
     </div>
@@ -179,11 +181,9 @@ jQuery('.over').opOver(1.0,0.3,300,500);
 		<div class="crumbs">
 <div class="crumbs"><a href="index.html">HOME</a>&nbsp;&raquo;&nbsp;<a href="Voice">Voice</a></div>
 </div>
+
 <div id="catarogue"><h2>お客様の声</h2></div>
-	</div>
-<div class="row-eq-height">
-
-
+<div id="voice_block_2">
 
 <!--口コミ開始-->
 	<div class="mT20">
@@ -2189,82 +2189,6 @@ jQuery('.over').opOver(1.0,0.3,300,500);
 		<li class="reportCassette mT30">
 				<div class="reportHeader">
 					<div class="shopInfo reportTitle cFix">
-						<p class="fl w580 pL25"><span class="b">淳之介さん</span><span class="mL5 fs10 fgGray">（女性/40代/会社員）</span></p>
-						<div class="fr">
-							<p class="fs10 fgGray">[投稿日] 2019/10/21</p>
-						</div>
-					</div>
-					<ul class="judgeList cFix">
-						<li class="bdN fgGray b">総合<span class="mL5 mR10 fgPurple4">4</span><span class="iconStarOn">★</span><span class="iconStarOn">★</span><span class="iconStarOn">★</span><span class="iconStarOn">★</span><span class="iconStarOff">☆</span></li>
-						<li><span class="fgGray">雰囲気</span><span class="mL10 fgPurple4 b">3</span></li>
-						<li><span class="fgGray">接客サービス</span><span class="mL10 fgPurple4 b">4</span></li>
-						<li><span class="fgGray">技術・仕上がり</span><span class="mL10 fgPurple4 b">5</span></li>
-						<li class="bdN"><span class="fgGray">メニュー・料金</span><span class="mL10 fgPurple4 b">5</span></li>
-				</ul>
-				</div>
-				<div class="mT10 pH10">
-					<p class="mT10 wwbw">３回目の利用です<br />前の２回とも揉み返しなく、当日の予約も取れるので、リピーターになりました。<br />ビルの入り口が工事中？で営業しているのか不安を感じましたが、店内はちゃんと営業中。<br />今回は首～肩、腰を中心的に施術してもらいました。今回も翌日の揉み返しなし。<br />また利用します。</p>
-					<div class="mT25 cFix">
-						<p class="couponMenuTitle fl">予約時のクーポン・メニュー</p>
-						<ul class="fl cFix pR5">
-							<li class="fl iS offL krGenreGR01 mR5">ジャンル</li>
-						</ul>
-						<div class="oh zoom1">
-							<p>
-								当店1番人気！【三ノ輪駅徒歩10秒♪破格の安さ！】全身整体60分3000円</p>
-						</div>
-					</div>
-				</div>
-				<div class="mT20 mH10 pV5 pH9 bdGray">
-						<div class="bdDotGrayB pB5 cFix">
-							<p class="fl fgPurple4 b">王整体院からの返信コメント</p>
-							<div class="fr">
-								</div>
-						</div>
-						<p class="mT10 wwbw">淳之介様<br /><br />3回目のご来店ありがとうございます。<br /><br />揉み返しがないとのご報告とても嬉しく拝見いたしました。<br /><br />これからもどうぞよろしくお願い致します。<br /><br />寒くなります。お風邪など引かれないようにご自愛下さいませ。</p>
-					</div>
-				</li>
-		<li class="reportCassette mT30">
-				<div class="reportHeader">
-					<div class="shopInfo reportTitle cFix">
-						<p class="fl w580 pL25"><span class="b">ゆうknhさん</span><span class="mL5 fs10 fgGray">（男性/30代前半/会社員）</span></p>
-						<div class="fr">
-							<p class="fs10 fgGray">[投稿日] 2019/10/19</p>
-						</div>
-					</div>
-					<ul class="judgeList cFix">
-						<li class="bdN fgGray b">総合<span class="mL5 mR10 fgPurple4">4</span><span class="iconStarOn">★</span><span class="iconStarOn">★</span><span class="iconStarOn">★</span><span class="iconStarOn">★</span><span class="iconStarOff">☆</span></li>
-						<li><span class="fgGray">雰囲気</span><span class="mL10 fgPurple4 b">4</span></li>
-						<li><span class="fgGray">接客サービス</span><span class="mL10 fgPurple4 b">4</span></li>
-						<li><span class="fgGray">技術・仕上がり</span><span class="mL10 fgPurple4 b">4</span></li>
-						<li class="bdN"><span class="fgGray">メニュー・料金</span><span class="mL10 fgPurple4 b">3</span></li>
-				</ul>
-				</div>
-				<div class="mT10 pH10">
-					<p class="mT10 wwbw">大変良い雰囲気で施術していただきました。</p>
-					<div class="mT25 cFix">
-						<p class="couponMenuTitle fl">予約時のクーポン・メニュー</p>
-						<ul class="fl cFix pR5">
-							<li class="fl iS offL krGenreGR01 mR5">ジャンル</li>
-						</ul>
-						<div class="oh zoom1">
-							<p>
-								当店1番人気！【三ノ輪駅徒歩10秒♪破格の安さ！】全身整体60分3000円</p>
-						</div>
-					</div>
-				</div>
-				<div class="mT20 mH10 pV5 pH9 bdGray">
-						<div class="bdDotGrayB pB5 cFix">
-							<p class="fl fgPurple4 b">王整体院からの返信コメント</p>
-							<div class="fr">
-								</div>
-						</div>
-						<p class="mT10 wwbw">ゆうknh様<br /><br />ご来店ありがとうございました。<br /><br />口コミ評価を頂きましてありがとうございます。<br /><br />これからもどうぞよろしくお願い致します。</p>
-					</div>
-				</li>
-		<li class="reportCassette mT30">
-				<div class="reportHeader">
-					<div class="shopInfo reportTitle cFix">
 						<p class="fl w580 pL25"><span class="b">ななけんさんさん</span><span class="mL5 fs10 fgGray">（男性/40代/会社員）</span></p>
 						<div class="fr">
 							<p class="fs10 fgGray">[投稿日] 2019/10/19</p>
@@ -4240,9 +4164,13 @@ jQuery('.over').opOver(1.0,0.3,300,500);
 				</li>
 		</ul>
 	</div>
+	</div>
 </div>
 </div>
 </div>
+</div>
+</div>
+
 <div id="footer">
   <div class="container">
 	<div class="row">
